@@ -1,0 +1,41 @@
+Start Date: 23-05-2025
+Time: Monday to Friday (10:00 am-12:00 am)
+Course: PYTHON with DJANGO
+WhatsApp group: GIFT-Intern-Python-5th-Sem
+GitHub-Link: https://github.com/milandas63/GIFT-Intern-Python-5th-Sem-2025-05-23/
+Wifi Password: #A1B2C3E5D4#
+
+Participants:
+MILAN DAS                   7978168568      milandas63@gmail.com                milandas63
+ 1  Adyasha Swain           7894419620
+ 2  Akanksha Panigrahi      9337780115
+ 3  Ananya Gumansingh       8260788368
+ 4  Barshita Pattnaik       7684806111      barshita07@gmail.com                Barshitapattnaik
+ 5  Bidyadhar Behera        9668895756
+ 6  Deepak Kumar Samantara  9861408828
+ 7  Deepak Kumar Senapati   7847983345
+ 8  Dibyajyoti Nayak        9861426047
+ 9  Kasturi Samantaray      9937945726
+10  Mohd Anwar              6005194557
+11  P Sumant Raj Patro      7894138336
+12  Prabhu Prasad Jena      9337579220
+13  Reemarani Panda         9310883613
+14  Sairam Majhi            8480014152
+15  Shakti Prasad Sahoo     7381116465
+16  Smruti Ranjan Barik     7609866172
+17  Subhadarsini Jena       8018696003
+18  Subhalaxmi Nanda        8984108572
+19  Subham Satapathy        8637210911
+20  Surya Kant Pradhan      7894849781
+21  Swayamshree Abhilipsa   6370780385
+
+
++--------------------+
+| Friday, 23-05-2025 |  Day-01
++--------------------+
+    =   Knowing each other
+    =   Induction programme
+    =   Prequalification requirement
+        >   Atleast one programming language
+        >   Must have your own laptop system
+    =   Introduction to Cyber Security and Cloud Computing
