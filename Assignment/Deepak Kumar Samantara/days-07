@@ -1,0 +1,13 @@
+def digit_to_word(n):
+    digit_words = ['Zero', 'One', 'Two', 'Three', 'Four', 
+                   'Five', 'Six', 'Seven', 'Eight', 'Nine']
+    result = " "
+    for digit in str(n):
+        if digit.isdigit():
+            result += digit_words[int(digit)] + " "
+        else:
+            result += "? " 
+      
+    return result.strip()
+number = int(input("Enter a number: "))
+print("In words:", digit_to_word(number))
