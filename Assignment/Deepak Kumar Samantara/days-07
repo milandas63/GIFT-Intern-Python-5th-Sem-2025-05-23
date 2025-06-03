@@ -1,3 +1,4 @@
+# wap to convert all digit  in a number to word
 def digit_to_word(n):
     digit_words = ['Zero', 'One', 'Two', 'Three', 'Four', 
                    'Five', 'Six', 'Seven', 'Eight', 'Nine']
