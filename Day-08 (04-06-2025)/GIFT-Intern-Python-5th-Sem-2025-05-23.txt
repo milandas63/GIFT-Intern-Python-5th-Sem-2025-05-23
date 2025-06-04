@@ -452,11 +452,32 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
 +-----------------------+
 | Wednesday, 04-06-2025 |  Day-08
 +-----------------------+
+    =   What is exception handling?
+        Exception handling is a fault resistant technique implemented in the programming
+        languages. During runtime, if the program encounters any error, it branches
+        its execution to a user defined path instead of abruptly termination the program
+        and displaying complex and technical messages for the user.
+
     =   What is error handling in Python?
         When there is an error during execution of a Python program, the compiler
         generates a message.
 
+    =   Exception Handling in Python
+        For exception handling Python has provided the "try" statement.
+        The try statement has another 3 clauses:
+            try:...except:...except:...else:...finally:...
+
     =   Errors are handled in a statement called try-except-finally
+
+    =   The main program is written the try block. When an exception/error occurs
+        within the block, an exception object is generated and the execution sequence
+        is interrupted. The exception is matched with all the exception names associated
+        with the except clause.
+
+        If there is no error in the program, the try statement executes the else clause.
+
+        In case finally clause is used in the try statement, it must be executed, if
+        there is not error or there is error.
 
     =   When an error occurs in the program, within the try block, an error object
         is generated. This object is matched with all the class type that is specified
@@ -505,6 +526,133 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
         finally clause is optional. If the finally is present, the block associated
         with the finally clause is executed in either case, if there is an error or
         there is no error.
+
+        >   Exception
+            +- AirthmeticError
+            |  +- ZeroDivisionError
+            Example:
+                divident = 1099
+                divisor = 0
+
+                try:
+                    result = dividend / divisor
+                    print("Result:", result)
+                except ArithmeticError:
+                    print("Error: Arithmetic error occurred!")
+
+            In the above example, divisor remaining 0 in the division, will generate
+            AirthmeticError.
+
+        >   AssertionError
+            Example:
+                # Handling it manually
+                try:
+                    x = 1
+                    y = 0
+                    assert y != 0, "Invalid Operation"
+                    print(x / y)
+
+                # the errror_message provided by the user gets printed
+                except AssertionError as msg:
+                    print(msg)
+
+        >   AttributeError
+            Example:
+                x = 10
+                x.append(6)
+
+            Output:
+                Traceback (most recent call last):
+                  File "/home/46576cfdd7cb1db75480a8653e2115cc.py", line 2, in
+                    x.append(6)
+                AttributeError: 'int' object has no attribute 'append'
+
+            Example-2:
+                string = "The famous website is { }".fst("wikipedia")
+                print(string)
+                    Traceback (most recent call last):
+                      File "<stdin>", line 1, in <module>
+                    AttributeError: 'str' object has no attribute 'fst'
+
+        >   ModuleNotFoundError
+            Example:
+                import umymodule
+                dir(umymodule)
+                print('Exception')
+
+        >   IndentationError
+            Example:
+                def check_number(a):
+                if a > 2:
+                if a < 7:
+                return "Number is between 2 and 7"
+                return "Number is greater than 2"
+                return "Number is out of the range of 2 and 7"
+
+                a = 5
+                result = check_number(a)
+                print(result)
+
+            Output:
+            Indentation error.
+
+        >   IndexError
+            name = 'Gurudas Singh'
+            print(name[20])
+
+        >   ZeroDivisionError
+            numerator = 45
+            denominator = 0
+            quotient = numerator / denominator
+            print(quotient)
+
+        >   SyntaxError
+            Example-1:
+                assert = "Python Exceptions"
+
+            Example-2:
+                for s in string:
+                    if (s != o:
+                        print(s)
+
+        >   NameError
+            string = "Python Exceptions"
+            for s in string:
+                if (s != o):
+                    print(s)
+
+        >   ValueError
+            s1 = int(input("Enter a number: "))
+            Enter a number: 8OO
+            Traceback (most recent call last):
+              File "<stdin>", line 1, in <module>
+            ValueError: invalid literal for int() with base 10: '8OO'
+
+    =   User defined error
+        class MyError(Exception):
+            def __init__(self):
+                print("MyError Exception")
+
+        raise MyError()
+
+        Output:
+        MyError Exception
+        Traceback (most recent call last):
+          File "<stdin>", line 1, in <module>
+        MyError
+
+    =   raise is only associated with errors class:
+        class Process():
+            def __init__(self):
+                print("Process error")
+
+        raise Process()
+
+        Output:
+        Process error
+        Traceback (most recent call last):
+          File "<stdin>", line 1, in <module>
+        TypeError: exceptions must derive from BaseException
 
     =   A certain country want to print the voter-id card for its citizens. The
         citizen who is:
