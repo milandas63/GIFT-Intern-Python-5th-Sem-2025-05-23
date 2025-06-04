@@ -1,0 +1,41 @@
+# class a:
+#     def A(self):
+#         print('printing a')
+# class b(a):
+#     def B(self):
+#         print('printing b')
+
+# class c(b):
+#     def C(self):
+#         print('printing c')
+
+# obj1=a()
+# obj2=b()
+# obj3=c()
+# obj1.A()
+# obj2.B()
+# obj3.C()
+
+
+class a:
+    def A(self):
+        print('printing a')
+
+class b:
+    def B(self):
+        print('printing b')
+
+class c:
+    def C(self):
+        print('printing c')
+
+class d(b,c):
+    def D(self):
+        print('printing d')
+
+obj1=a()
+obj2=b()
+obj3=c()
+obj1.A()
+obj2.B()
+obj3.C()
