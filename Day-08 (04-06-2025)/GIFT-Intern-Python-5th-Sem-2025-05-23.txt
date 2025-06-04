@@ -623,7 +623,7 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
 
         >   ValueError
             s1 = int(input("Enter a number: "))
-            Enter a number: 8OO
+            Enter a number: 8OO00
             Traceback (most recent call last):
               File "<stdin>", line 1, in <module>
             ValueError: invalid literal for int() with base 10: '8OO'
@@ -670,4 +670,26 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
         |   +- AgeCeilingError
         |   |  +- LowerAgeError
         |   |  +- UpperAgeError
+
+    =   ASSIGNMENT:
+        Create a Login project with user defined errors.
+        Code the project by taking the username and password from the user.
+
+        Exception
+        +- LoginError
+        |  +- UsernameError
+        |  |  +- Length less than 8 characters
+        |  |  +- Starts with lower case character
+        |  |  +- Invalid characters found
+        |  |  +- 
+        |  |  +- 
+        |  |  +- 
+        |  |  +- 
+        |  +- PasswordError
+        |  |  +- 
+        |  |  +- 
+        |  |  +- 
+        |  |  +- 
+        |  |  +- 
+        |  |  +- 
 
