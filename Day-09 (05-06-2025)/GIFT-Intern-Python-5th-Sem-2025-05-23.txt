@@ -137,7 +137,7 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
         16_ global      To declare a global variable
         17_ if          To make a conditional statement
         18_ import      To import a module
-        19. in          To check if a value is present in a list, tuple, etc.
+        19_ in          To check if a value is present in a list, tuple, etc.
         20. is          To test if two variables are equal
         21_ lambda      To create an anonymous function
         22. None        Represents a null value
@@ -742,3 +742,17 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
     =   ASSIGNMENT:
         Write a program to count the number of words in a text file?
 
+    =   ASSIGNMENT:
+        Write a program to read the following fields from the console and
+        write it on to a CSV (Comma Separated Values) file.
+
+            1, "Milan Das", "Male", "PhD", "milandas63@gmail.com", "7978168568"
+            2, "Sanjay Gokle","Male","MCA","goklesanjay77@gmail.com","9778911223"
+
+        Fields:
+            1.  Slno (Serial Number)
+            2.  Name of the person
+            3.  Gender
+            4.  Qualification
+            5.  Email id
+            6.  Mobile Number
