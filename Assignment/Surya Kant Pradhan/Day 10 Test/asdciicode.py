@@ -1,0 +1,7 @@
+user_string = input("Enter a string: ")
+
+ascii_sum = sum(ord(char) for char in user_string)
+
+print(f"Sum of ASCII values: {ascii_sum}")
+        
+
