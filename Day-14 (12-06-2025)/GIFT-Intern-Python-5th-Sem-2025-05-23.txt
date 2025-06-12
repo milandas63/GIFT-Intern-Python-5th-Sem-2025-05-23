@@ -1,4 +1,4 @@
-Start Date: 23-05-2025
+Start Date: 23-05-2025 to 10-07-2025
 Time: Monday to Friday (10:00 am-12:00 am)
 Course: PYTHON with DJANGO
 WhatsApp group: GIFT-Intern-Python-5th-Sem
@@ -855,3 +855,5 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
 +----------------------+
     =   Write a program to read data from the console and write the same into database
         table.
+
+    =   Write a program to create a new product in the pos system.
