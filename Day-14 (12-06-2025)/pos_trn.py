@@ -29,7 +29,9 @@ while more:
     discamt = price * float(disc)/100
     amount = price + taxamt - discamt
 
-    buf = "INSERT INTO trn(trn_date,trn_type,prod_id,qty,free,rate,tax,discount,amount) VALUES('"+str(date)+"','S',"+str(prod)+","+str(qty)+","+str(free)+","+str(rate)+","+str(taxamt)+","+str(discamt)+","+str(amount)+")\r\n"
+    buf = "INSERT INTO trn(trn_date,trn_type,prod_id,qty,free,rate,tax,discount,amount) VALUES('"+str(date)+"','S',"+str(prod)+","+str(qty)+","+str(free)+","+str(rate)+","+str(taxamt)+","+str(discamt)+","+str(amount)+")"
+    print(buf)
     curs.execute(buf)
+    conn.commit()
 
     more = input('More [y/n]: ').upper().startswith('Y')
