@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Table Calculator</title>
+</head>
+<body>
+  <table border="1" cellpadding="4" cellspacing="0">
+    <tr>
+      <th colspan="4">
+        <input type="text" placeholder="0.00">
+      </th>
+    </tr>
+    <tr>
+      <td><button>MC</button></td>
+      <td><button>M+</button></td>
+      <td><button>M-</button></td>
+      <td><button>MR</button></td>
+    </tr>
+
+     <tr>
+      <td><button>%</button></td>
+      <td><button>CE</button></td>
+      <td><button>*</button></td>
+      <td><button>/</button></td>
+    </tr>
+
+    <tr>
+      <td><button>7</button></td>
+      <td><button>8</button></td>
+      <td><button>9</button></td>
+      <td><button>X</button></td>
+    </tr>
+
+    <tr>
+      <td><button>4</button></td>
+      <td><button>5</button></td>
+      <td><button>6</button></td>
+      <td><button>-</button></td>
+    </tr>
+    <tr>
+      <td><button>1</button></td>
+      <td><button>2</button></td>
+      <td><button>3</button></td>
+      <td rowspan="2"><button>+</button></td>
+    </tr>
+    <tr>
+      <td><button>0</button></td>
+      <td colspan="2"><button>=</button></td>
+
+      
+
+    </tr>
+  </table>
+</body>
+</html>
