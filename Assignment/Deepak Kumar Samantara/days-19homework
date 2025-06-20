@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <table border="1">
+      
+        <tr>
+            <th rowspan="4"  >SL NO.</th>
+            <th rowspan="4">NAME OF THE DISTRICT</th>
+            <th colspan="8">POPULATION</th>
+       
+            <tr>
+              <th colspan="4">URBAN</th>
+              <th colspan="4">RURAL</th>
+            </tr>
+
+            <tr>
+              <th colspan="2">MALE</th>
+              <th colspan="2">FEMALE</th>
+              <th colspan="2">MALE</th>
+              <th colspan="2">FEMALE</th>
+            </tr>
+
+
+        </tr>
+        <tr>
+            <th colspan="1">&gt;5</th>
+            <th colspan="1">6-15</th>
+            <th colspan="1">16-25</th>
+            <th colspan="1">&lt;25</th>
+            <th colspan="1">&gt;5</th>
+            <th colspan="1">6-15</th>
+            <th colspan="1">16-25</th>
+            <th colspan="1">&lt;25</th>
+        </tr>
+
+        <tr>
+            <td style="text-align: center;" >0.</td>
+            <td>KHORDHA</td>
+            <td>63</td>
+            <td>1234</td>
+            <td>123</td>
+            <td>84</td>
+            <td>40</td>
+            <td>43</td>
+            <td>33</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">1.</td>
+            <td>NAYAGRADA</td>
+            <td>63</td>
+            <td>1234</td>
+            <td>123</td>
+            <td>84</td>
+            <td>40</td>
+            <td>43</td>
+            <td>33</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">2.</td>
+            <td>SAMBALPUR</td>
+            <td>63</td>
+            <td>1234</td>
+            <td>123</td>
+            <td>84</td>
+            <td>40</td>
+            <td>43</td>
+            <td>33</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">3.</td>
+            <td>KORAPUT</td>
+            <td>63</td>
+            <td>34</td>
+            <td>123</td>
+            <td>84</td>
+            <td>40</td>
+            <td>43</td>
+            <td>33</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">4.</td>
+            <td>BBSR</td>
+            <td>63</td>
+            <td>1234</td>
+            <td>123</td>
+            <td>84</td>
+            <td>40</td>
+            <td>43</td>
+            <td>33</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">5.</td>
+            <td>CTC</td>
+            <td>63</td>
+            <td>34</td>
+            <td>123</td>
+            <td>84</td>
+            <td>40</td>
+            <td>43</td>
+            <td>33</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">6.</td>
+            <td>PURI</td>
+            <td>09</td>
+            <td>14</td>
+            <td>123</td>
+            <td>45</td>
+            <td>42</td>
+            <td>43</td>
+            <td>24</td>
+            <td>32</td>
+        </tr>
+    </table>
+</body>
+</html>
