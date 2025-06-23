@@ -994,7 +994,7 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
 +--------------------+
     =   HTML frame and frameset
 
-        +------------------------------------------------------------------------------------+
+        +-------------------+----------------------------------------------------------------+
         | Political Parties |                                                                |
         | 1. BJP            |                                                                |
         | 2. NDA            |                                                                |
@@ -1013,5 +1013,14 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
         |                   |                                                                |
         |                   |                                                                |
         |                   |                                                                |
-        +------------------------------------------------------------------------------------+
+        +-------------------+----------------------------------------------------------------+
+
+    =   Odered List     <ol>...</ol>        Options: 1, i, a, A
+            List Item               <li>...</li>
+    =   Unordered List  <ul>...</ul>        Options: disc, circle, square
+            List Item               <li>...</li>
+    =   Definition List <dl>...</dl>
+            Definition Term         <dt>...</dt>
+            Definition Description  <dd>...</dd>
+
 
