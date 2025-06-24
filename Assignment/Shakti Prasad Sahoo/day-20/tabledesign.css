@@ -1,0 +1,85 @@
+
+
+body {
+    font-family: Arial, sans-serif,'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color: #1e4404;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(165, 19, 19);
+    box-shadow: 0 2px 4px rgba(160, 3, 3, 0.1);
+}
+
+th {
+    background-color: #02fff2;
+    padding: 12px;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    border: 1px solid #27118b;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #a01717;
+}
+
+tr:nth-child(even) {
+    background-color: #4d0505;
+}
+
+tr:nth-child(odd) {
+    background-color: #5c210a;
+}
+
+
+tr:first-child {
+    background-color: #a04646;
+}
+
+tr:hover {
+    background-color: #052c50;
+    color: rgb(234, 12, 241);
+
+}
+
+td:first-child {
+    text-align: center;
+    font-weight: bold;
+}
+td:first-child:hover {
+    text-align: center;
+    font-weight: bold;
+    color: #06df11;
+}
+ td:hover {
+    text-align: center;
+    font-weight: bold;
+    color: #ff0000;
+}
+td:nth-child(5) {
+    text-align: right;
+    font-weight: bold;
+    color: #fffb00;
+}
+td:nth-child(5):hover {
+    text-align: center;
+    font-weight: bold;
+    color: #31cece;
+}
+td:nth-child(6) {
+    text-align: center;
+    font-weight: bold;
+    color: #00f867;
+}
+td:nth-child(6):hover {
+    text-align: center;
+    font-weight: bold;
+    color: #ff0000;
+}
