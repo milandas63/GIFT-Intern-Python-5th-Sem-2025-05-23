@@ -1074,8 +1074,13 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
     =   There are 3 types of application for CSS in HTML:
         1.  Inline CSS
             Those CSS descriptions that are given in the STYLE attribute of the element
-            are inline CSS
-                <h1 style="color:red; text-align:center; background-color:lightgray;">Hello World</h1>
+            are inline CSS. Inline styling has greater precedence over internal and
+            external css.
+                <h1 style="color:red; text-align:center; background-color:lightgray;">
+                    Hello World
+                </h1>
         2.  Internal CSS
+            Internal CSS are property:value; pairs provided within the STYLE element.
+            The internal css has greater precedence over the external css.
         3.  External CSS
 
