@@ -1083,4 +1083,12 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
             Internal CSS are property:value; pairs provided within the STYLE element.
             The internal css has greater precedence over the external css.
         3.  External CSS
+            The CSS descriptions are defined in a separate file called .css.
+            The .css is then linked with the help of <link> element.
+            Example: <link rel="stylesheet" href="style.css">
+            This keeps the css code and the html code in two different files.
+
+    =   ASSIGNMENT:
+        Create a table with 10-15 rows and 5-6 columns.
+        The alternate rows will be colored with 2 different colors.
 
