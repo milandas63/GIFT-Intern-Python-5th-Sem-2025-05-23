@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number Generator</title>
+    <script>
+        function generate() {
+            let start = document.getElementById("from").value;
+            let end = document.getElementById("till").value;
+            let count = 0;
+            let yn;
+            document.writeln("<body>");
+            document.writeln("<table border='1' cellpadding='5'>");
+            document.writeln("<tr>");
+            for(let i=start; i<=end; i++) {
+                yn = true;
+                for(let j=2; j<i; j++) {
+                    if(i%j==0) {
+                        yn = false;
+                        break;
+                    }
+                }
+                if(yn) {
+                    document.write("<td>"+i+"</td>");
+                    count++;
+                    if(count>=15) {
+                        document.writeln("</tr>");
+                        document.writeln("<tr>");
+                        count = 0;
+                    }
+                }
+            }
+            document.writeln("</tr>");
+            document.writeln("</table>");
+            document.writeln("</body>");
+        }
+    </script>
+</head>
+<body>
+    <h1><b><u>Prime Number Generator</u></b></h1>
+    <br><br>
+    <label>From which number: </label><br>
+    <input type="text" id="from"><br>
+    <br>
+    <label>Till which number: </label><br>
+    <input type="text" id="till"><br>
+    <br>
+    <button onclick="generate();"> Generate </button>
+</body>
+</html>

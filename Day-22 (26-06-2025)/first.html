@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Programme</title>
+    <script>
+        function sayhello() {
+            var textObj = document.getElementById("you");
+            var name = textObj.value;
+            alert("Hello "+name);
+        }
+    </script>
+</head>
+<body>
+    <script>
+        document.writeln("<h1>Hello World!</h1>")
+    </script>
+    <br><br>
+    <label>What is your name?</label><br>
+    <input type="text" name="you" id="you">
+    <br><br>
+    <button onclick="sayhello();">Click</button>
+</body>
+</html>
