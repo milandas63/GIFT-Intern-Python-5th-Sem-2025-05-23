@@ -1121,6 +1121,7 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
     =   What is JavaScript?
         JavaScript is the most popular programming language today. It was created
         to make the HTML page interactive.
+    =   JavaScript is first created by Netscape Navigator company.
     =   JavaScript programs are normally written within the HTML - <SCRIPT>...</SCRIPT>
         element.
     =   JavaScript was initially an object based language. In an object based language
@@ -1137,3 +1138,9 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
 
     =   JavaScript has only one datatype called "var". Internally it evaluates
         the datatype depending on the value.
+
+    =   Four example programs to build programming skill in Javascript:
+        1.  first.html
+        2.  pyramid.html
+        3.  primeno.html
+        4.  mtables.html

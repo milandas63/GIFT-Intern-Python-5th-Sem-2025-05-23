@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function compute() {
+            let start = parseInt(document.getElementById("from").value);
+            let end = parseInt(document.getElementById("upto").value);
+            let count = 0;
+
+            document.writeln("<body>");
+            document.writeln("<table border='1' cellpadding='5'>");
+            document.writeln("<tr>");
+            for(let i=start; i<=end; i++) {
+                document.writeln("<td>");
+                document.writeln("<table>");
+                for(let j=1; j<=10; j++) {
+                    document.writeln("<tr>");
+                    document.writeln("<td align='right'>"+i+"</td>");
+                    document.writeln("<td align='center'>x</td>");
+                    document.writeln("<td align='right'>"+j+"</td>");
+                    document.writeln("<td align='center'>=</td>");
+                    document.writeln("<td align='right'>"+(i*j)+"</td>");
+                    document.writeln("</tr>");
+                }
+                document.writeln("</table>");
+                document.writeln("</td>");
+                count++;
+                if(count>=10) {
+                    document.writeln("</tr>");
+                    document.writeln("<tr>");
+                    count = 0;
+                }
+            }
+            document.writeln("</tr>");
+            document.writeln("</table>");
+            document.writeln("</body>");
+        }
+    </script>
+</head>
+<body>
+    <h1><b><u>Multiplication Tables</u></b></h1>
+    <br><br>
+    <label>From which table: </label><br>
+    <input type="text" id="from"><br>
+    <br>
+    <label>Upto which table: </label><br>
+    <input type="text" id="upto"><br>
+    <br>
+    <button onclick="compute();">Compute</button>
+</body>
+</html>
