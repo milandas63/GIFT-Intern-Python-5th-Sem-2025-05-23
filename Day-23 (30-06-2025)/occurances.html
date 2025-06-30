@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Occurances</title>
+    <script>
+        function count() {
+            let atotal = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+            let text = document.getElementById("text").value;
+            let char, achar;
+            for(let i=0; i<text.length; i++) {
+                char = text.charCodeAt(i);
+                if(char>=65 && char<=90) {
+                    atotal[char-65]++;
+                } else if(char>=97 && char<=122) {
+                    atotal[char-97]++
+                }
+            }
+
+            for(let i=0; i<atotal.length; i++) {
+                if(atotal[i]>0) {
+                    document.writeln(String.fromCharCode(i+65)+" = "+atotal[i]+"<br>");
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Count Occurances</h1>
+    <br>
+    <label>Enter a text: </label><br>
+    <input type="text" id="text"><br>
+    <br><br>
+    <button onclick="count();"> Click to Count </button>
+    <br><br>
+</body>
+</html>

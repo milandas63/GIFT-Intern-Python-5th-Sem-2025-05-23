@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let text = "Quick brown fox jumps over the fox lazy dog";
+        document.writeln( text.replace("jumps","leap") );
+        document.writeln("<br>");
+        let search = "over";
+        let replace = "that";
+        document.writeln( text.replace(search, replace) );
+        document.writeln("<br>");
+        let words = text.split(" ");
+        document.writeln(words.length);
+        document.writeln("<br>");
+        document.writeln("Position: "+text.indexOf("fox"));
+        document.writeln("Position: "+text.lastIndexOf("fox"));
+        window.print();
+</script>
+</body>
+</html>
