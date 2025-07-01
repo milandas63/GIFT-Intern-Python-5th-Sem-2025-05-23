@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Table</title>
+    <script>
+        function delRow(btnObj) {
+            var trow = btnObj.parentElement.parentElement;
+            var rowno = trow.rowno;
+            var tobj = trow.parentElement;
+            tobj.deleteRow(rowno)
+        }
+    </script>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>SLNO</th>
+            <th>APPLICANT NAME</th>
+            <th>FATHER NAME</th>
+            <th>EMAIL-ID</th>
+            <th>PHONE NO.</th>
+            <th>ACTION</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Milan Das</td>
+            <td>B K Das</td>
+            <td>milandas63@gmail.com</td>
+            <td>7978168568</td>
+            <td><button onclick="delRow(this);">DELETE</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Adyasha Swain</td>
+            <td>Swain</td>
+            <td>adyashas2023@gift.edu.in</td>
+            <td>7894419620</td>
+            <td><button onclick="delRow(this);">DELETE</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Akanksha Panigrahi</td>
+            <td>Panigrahi</td>
+            <td>akankshap0517@gmail.com</td>
+            <td>9337780115</td>
+            <td><button onclick="delRow(this);">DELETE</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Ananya Gumansingh</td>
+            <td>Gumansingh</td>
+            <td>ananyag2023@gift.edu.in</td>
+            <td>8260788368</td>
+            <td><button onclick="delRow(this);">DELETE</button></td>
+        </tr>
+
+    </table>
+</body>
+</html>
