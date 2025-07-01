@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Reverse Table</title>
+        <script>
+            function reverse() {
+                var tabObj = document.getElementById("table");
+                document.writeln("<html><body><table>");
+
+                document.writeln("<tr>");
+                for(var i=0; i<tabObj.rows[0].cells.length; i++) {
+                    document.writeln("<td>"+tabObj.rows[0].cells[i].innerHTML+"</td>");
+                }
+                document.writeln("</tr>");
+
+                for(var i=1; i<tabObj.rows.length; i++) {
+                    document.writeln("<tr>");
+                        for(var j=tabObj.rows[i].cells.length-1; j>=0; j--) {
+                            document.writeln("<td>"+tabObj.rows[i].cells[j].innerHTML+"</td>");
+                        }
+                    document.writeln("<tr>");
+                }
+                document.writeln("</table></body></html>");
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Student Information</h1>
+        <table border="1" id="table">
+            <tr>
+                <th>SLNO</th>
+                <th>NAME</th>
+                <th>GENDER</th>
+                <th>RESULT</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Milan Das</td>
+                <td>Male</td>
+                <td>Fail</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Dibyajyoti Nayak</td>
+                <td>Male</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Prabhu Prasad Jena</td>
+                <td>Male</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Barshita Pattnaik</td>
+                <td>Female</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Reemarani Panda</td>
+                <td>Female</td>
+                <td>Fail</td>
+            </tr>
+        </table>
+        <br><br>
+        <button onclick="reverse();">Reverse</button>
+    </body>
+
+</html>
