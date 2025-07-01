@@ -12,7 +12,7 @@
                 }
                 document.writeln("</tr>");
 
-                for(var i=1; i<tabObj.rows.length; i++) {
+                for(var i=tabObj.rows.length-1; i>=1; i--) {
                     document.writeln("<tr>");
                         for(var j=tabObj.rows[i].cells.length-1; j>=0; j--) {
                             document.writeln("<td>"+tabObj.rows[i].cells[j].innerHTML+"</td>");
