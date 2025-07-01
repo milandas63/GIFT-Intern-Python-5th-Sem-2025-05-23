@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Case Converter</title>
+</head>
+<body>
+  <h2>Toggle Case</h2>
+  <input type="text" id="inputText" placeholder="Enter text here">
+  <br><br>
+  <button onclick="convertCase()">Convert</button>
+  <p><strong>Converted Text:</strong> <span id="output"></span></p>
+
+  <script>
+    function convertCase() {
+      let text = document.getElementById("inputText").value;
+      let converted = "";
+
+      for (let i = 0; i < text.length; i++) {
+        let ascii = text.charCodeAt(i);
+        if (ascii >= 97 && ascii <= 122) {
+          converted += String.fromCharCode(ascii - 32);
+        }
+        else if (ascii >= 65 && ascii <= 90) {
+          converted += String.fromCharCode(ascii + 32);
+        }
+        else {
+          converted += text[i];
+        }
+      }
+
+      document.getElementById("output").innerText = converted;
+    }
+  </script>
+</body>
+</html>
