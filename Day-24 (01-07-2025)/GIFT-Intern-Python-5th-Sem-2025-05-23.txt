@@ -1433,3 +1433,6 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
 
     =   Write a program to develop all small color chooser app.
 
+    =   Write a program to display a table and do CRUD operation with its rows.
+
+    =   Write a program to reverse the content of a table horizontally and vertically.
