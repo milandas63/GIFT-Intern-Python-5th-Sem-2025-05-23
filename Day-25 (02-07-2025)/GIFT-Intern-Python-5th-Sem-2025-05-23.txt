@@ -1455,6 +1455,10 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
         6)  django-admin --version              -   Check the django version
         7)  django-admin startproject Elephant  -   Create a project in the name Elephant
         8)  cd Elephant                         -   Change to the new project directory
-        9)  python manage.py runserver          -   Starts the server and provides link
+        9)  python manage.py runserver          -   Starts the server that provides link url
                                                     http://127.0.0.1:8000/
        10)  
+
+    =   PROJECT:
+        Write a program using Django to display all rows of contact table in relation
+        with location and relation in mysql db on the internet browser.
