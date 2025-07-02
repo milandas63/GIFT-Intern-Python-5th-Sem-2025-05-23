@@ -1457,7 +1457,32 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
         8)  cd Elephant                         -   Change to the new project directory
         9)  python manage.py runserver          -   Starts the server that provides link url
                                                     http://127.0.0.1:8000/
-       10)  
+       10)  python manage.py startapp MyApp     -   Create a new app in the name MyApp
+       11)  # Elephant/settings.py              -   Add the name of the new app (MyApp)
+            INSTALLED_APPS = [
+                'django.contrib.admin',
+                'django.contrib.auth',
+                'django.contrib.contenttypes',
+                'django.contrib.sessions',
+                'django.contrib.messages',
+                'django.contrib.staticfiles',
+                'MyApp',  #  Add this line
+            ]
+       12)  Open MyApp/views.py                 -   Add the following lines
+               from django.http import HttpResponse
+               def home(request):
+                   return HttpResponse("<h1 style='color:red;text-align:center;background-color:lightGray;'>Hello World</h1>")
+
+       13)  Edit Elephant/urls.py and add the following:
+               from django.contrib import admin
+               from django.urls import path
+               from MyApp import views  #  import your app's views
+
+               urlpatterns = [
+                    path('admin/', admin.site.urls),
+                    path('', views.home),  #  root URL mapped to home view
+               ]
+       14)  python manage.py runserver          -   Run the server again
 
     =   PROJECT:
         Write a program using Django to display all rows of contact table in relation
