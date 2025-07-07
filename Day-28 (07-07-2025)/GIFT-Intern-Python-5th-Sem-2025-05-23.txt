@@ -1533,4 +1533,7 @@ MILAN DAS                   7978168568      milandas63@gmail.com                
         1)  Using TKinter
         2)  DJango & HTML
 
+    =   ASSIGNMENT:
+        Run the Elephant project uploaded in zip format.
+        Show me tomorrow.
 
